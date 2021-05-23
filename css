@@ -1,0 +1,59 @@
+body{
+    background: hsl(261, 46%, 7%);
+    margin: 6%;
+    margin-left:12% ;
+    font-size: 15px;
+    position: fixed;
+}
+    
+
+
+.container{
+    background-color: hsl(290, 86%, 6%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 980px;
+    height: 70vh;
+    border-radius: 10px;
+    
+}
+.item1{
+    margin: 50px;
+}
+.text1{
+    margin-bottom: 60px;
+    font-family: "lexend deca";
+    color: hsl(0, 0%, 100%, 0.75);
+}
+.header1{
+    margin-bottom: 30px;
+    font-family: "inter";  
+    color: hsl(0, 0%, 100%); 
+}
+.header2{
+    margin-bottom: -10px;
+    word-spacing: 40px;
+    font-family: "inter";
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    
+}
+.header3{
+    color: hsl(0, 0%, 100%, 0.6);
+    font-family: "lexend deca";
+    text-transform: uppercase;
+    word-spacing: 44px;
+    font-weight: 100;
+    font-size: x-small;
+}
+.img{
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-image:
+    linear-gradient(rgba(255, 9, 214, 0.658), rgb(255, 9, 214, 0.658)), url(/images/image-header-desktop.jpg);
+    opacity: 0.9;
+    border-radius: 9px;   
+}
